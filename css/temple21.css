@@ -1,8 +1,42 @@
 /* お寺ホームページのCSS */
 body {
-    
+    /* color: #2e8b57; */
+    /* color: #D5C8A0; */
+    background-color: #AD96AD;
 }
 
 h1 {
-    color: red;
+    text-align: center;
+    color: white;
+    /* border-width: 1px 4em 0em 4em; */
+    border-width: 4px 4px;
+    border-style: solid;
+    border-color: #2e8b57;
+    padding: 10px;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.tableContainar table {
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgba(255,255,255,0.6); */
+    
+}
+
+.tableContainar td {
+    padding: 5px;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.tableContainar th {
+    padding: 5px;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.tableContainar img {
+    margin: 10px;
 }
