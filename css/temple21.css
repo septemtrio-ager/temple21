@@ -18,11 +18,92 @@ h1 {
 #container {
     width: 1000px;
     margin: 0 auto;
+
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.templeList {
+    
+    /* padding-right: 10px; */
+
+    padding: 0px 10px;
+    
+    width: 160px;
+    float: left;
+
+    background-color: rgba(255,255,255,0.3);
+}
+
+.templeList ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.templeList li {
+    
+}
+
+.localNav ul {
+    list-style: none;
+}
+
+.mainArticle {
+    
+    padding: 0px 10px;
+    
+    width: 510px;
+    float: left;
+}
+
+#copyright {
+    content: "";  
+    display: block;  
+    clear: both;
+}
+
+.localNav {
+    margin: 20px auto;
+}
+
+.localNav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.localNav ul:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+.localNav ul li {
+    list-style: none;
+    width: 122.5px;
+    float: left;
+    /* border-left: solid 1px #CCCCCC; */
+    /* padding: 0 5px; */
+    
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.429;
+    
+    background-color: rgba(255,255,255,0.3);
+    padding: 10px;
+}
+
+/* ページ内の表 */
+.tableContainar {
+    /* float: left; */
 }
 
 .tableContainar table {
-    margin-left: auto;
-    margin-right: auto;
+    /* width: 100px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     /* background-color: rgba(255,255,255,0.6); */
     
 }
