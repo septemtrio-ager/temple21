@@ -49,15 +49,60 @@ h1 {
     list-style: none;
 }
 
+/* main article */
+
 .mainArticle {
+
+    background-color: rgba(255,255,255,0.3);
     
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
+    margin: 0px 10px;
     
     width: 510px;
     float: left;
+
+    
+}
+
+.mainArticleChar {
+    padding: 0px 20px;
+}
+
+.mainArticleCharTitle {
+    border-left: 10px solid #2e8b57;
+    padding-left: 10px;
+}
+
+.mainArticleChar p {
+    padding-bottom: 20px;
+}
+
+/* sub article */
+
+.subArticle {
+    background-color: rgba(255,255,255,0.3);
+    margin: 0px 10px;
+    width: 800px;
+    float: left;
+}
+
+.subArticleChar {
+    padding: 0px 20px;
+}
+
+.subArticleCharTitle {
+    
+    border-left: 10px solid #2e8b57;
+    padding-left: 10px;
+}
+
+.subArticleChar p {
+    padding: 0px 20px;
 }
 
 #copyright {
+    
+    padding-top: 20px;
     content: "";  
     display: block;  
     clear: both;
@@ -110,12 +155,20 @@ h1 {
 
 .tableContainar td {
     padding: 5px;
-    background-color: rgba(255,255,255,0.3);
+    /* background-color: rgba(255,255,255,0.3); */
 }
 
 .tableContainar th {
     padding: 5px;
+    /* background-color: rgba(255,255,255,0.3); */
+}
+
+.tableContainar tr:nth-child(2n) {
     background-color: rgba(255,255,255,0.3);
+}
+
+.tableContainar tr:nth-child(2n+1){
+    background-color: rgba(46,139,87,0.3);
 }
 
 .tableContainar img {
