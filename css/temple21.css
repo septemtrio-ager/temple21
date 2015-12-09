@@ -13,6 +13,8 @@ h1 {
     border-style: solid;
     border-color: #2e8b57;
     padding: 10px;
+
+    background-color: #2e8b57;
 }
 
 #container {
@@ -42,6 +44,9 @@ h1 {
 }
 
 .templeList li {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
     
 }
 
@@ -106,10 +111,14 @@ h1 {
     content: "";  
     display: block;  
     clear: both;
+
+    text-align: right;
 }
 
 .localNav {
     margin: 20px auto;
+    background-color: rgba(255,255,255,0.3);
+    
 }
 
 .localNav ul {
@@ -136,7 +145,7 @@ h1 {
     font-size: 14px;
     line-height: 1.429;
     
-    background-color: rgba(255,255,255,0.3);
+    /* background-color: rgba(255,255,255,0.3); */
     padding: 10px;
 }
 
