@@ -25,6 +25,7 @@ h1 {
     padding: 10px;
 
     background-color: #2e8b57;
+    /* background-color: #7BA21A; */
 }
 
 #container {
@@ -35,6 +36,55 @@ h1 {
     clear: both;
     display: block;
 }
+
+/* スライドショー */
+
+.slideshow {
+    position: relative;
+}
+
+.slideshow img {
+    vertical-align: bottom;
+}
+
+.slideshow ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.slideshow ul li {
+    position: relative;
+}
+
+.slideshow .bxsliderText {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    
+    
+    
+    /* background-color: rgba(0,0,0,0.4); */
+    background-color: rgba(255,255,255,0.7);
+    width: 400px;
+    padding: 15px 25px;
+    -mos-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.slideshow .bxsliderText h2 {
+    font-size: 26px;
+    line-height: 1.231;
+    margin: 0;
+}
+
+.slideshow .bxsliderText p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+/* お寺リストリンク */
 
 .templeList {
     
@@ -57,17 +107,17 @@ h1 {
 
     margin-top: 10px;
     margin-bottom: 10px;
-
-    
-    
 }
 
 .templeList a {
     text-decoration: none;
-    color: #2e8b57;
+    /* color: #2e8b57; */
+    color: #ce5242;
     
     /* font-weight: bold; */
     display: block;
+
+    text-shadow: 2px 2px 1px #999999;
     
 }
 
@@ -91,6 +141,7 @@ h1 {
 }
 
 .mainArticleCharTitle {
+    
     border-left: 10px solid #2e8b57;
     padding-left: 10px;
 }
@@ -106,8 +157,16 @@ h1 {
     
 }
 
+.mainArticle ul {
+    list-style: none;
+}
+
 .mainArticle li {
     font-size: 20px;
+    font-weight: bold;
+    
+    border-left: 5px solid #ce5242;
+    padding-left: 10px;
 }
 
 /* sub article */
