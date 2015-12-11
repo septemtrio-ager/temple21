@@ -30,6 +30,16 @@
     });
     </script>
 
+    <!-- -light box -->
+    <link href="js/lightbox/src/css/lightbox.css" rel="stylesheet">
+    <!-- <script src="js/lightbox/src/js/lightbox.js"></script> -->
+    <!-- <script>
+    lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true
+    })
+    </script> -->
+
   </head>
 
   <body>
@@ -97,6 +107,7 @@
 	    <li><a href="../temple25/index.html">岡寺</a></li>
 	  </ul>
 	</nav>
+	
 	<article class="mainArticle">
 	  <div class="mainArticleChar">
 	    <h2 class="mainArticleCharTitle">秋篠寺</h2>
@@ -123,7 +134,11 @@
 	      <li>本堂</li>
 	    </ul>
 	    <dl>
-	      <dd><img src="img/hondo.jpg" alt="" /></dd>
+	      <dd>
+		<a href="img/toppage-images/hondo.jpg" data-lightbox="toppage" data-title="本堂">
+		  <img src="img/toppage-images/hondo.jpg" alt="" class="shadow"/>
+		</a>
+	      </dd>
 	    </dl>
 	    <dl>
 	      <dd>
@@ -140,7 +155,11 @@
 	      <li>香水閣</li>
 	    </ul>
 	    <dl>
-	      <dd><img src="img/kosui.jpg" /></dd>
+	      <dd>
+		<a href="img/toppage-images/kosui.jpg" data-lightbox="toppage" data-title="香水閣">
+		  <img src="img/toppage-images/kosui.jpg" alt="" class="shadow"/>
+		</a>
+	      </dd>
 	    </dl>
 	    <dl>
 	      <dd>
@@ -151,7 +170,11 @@
 	      <li>大元堂</li>
 	    </ul>
 	    <dl>
-	      <dd><img src="img/daigen.jpg" /></dd>
+	      <dd>
+		<a href="img/toppage-images/daigen.jpg" data-lightbox="toppage" data-title="大元堂">
+		  <img src="img/toppage-images/daigen.jpg" alt="" class="shadow"/>
+		</a>
+	      </dd>
 	    </dl>
 	    <dl>
 	      <dd>
@@ -162,7 +185,11 @@
 	      <li>八所御霊神社</li>
 	    </ul>
 	    <dl>
-	      <dd><img src="img/mitama-zinzya.jpg" /></dd>
+	      <dd>
+		<a href="img/toppage-images/hassyo.jpg" data-lightbox="toppage" data-title="八所御霊神社">
+		  <img src="img/toppage-images/hassyo.jpg" alt="" class="shadow"/>
+		</a>
+	      </dd>
 	    </dl>
 	    <dl>
 	      <dd>
@@ -244,10 +271,15 @@
 	  </table>
 	</div>
       </div>
+      
       <footer>
 	<p id="copyright"><small>Copyright&copy;Shunsuke KITADA All Right Reserved.</small></p>
       </footer>
     </div>
+    
+    <!-- lightbox script -->
+    <script src="js/lightbox/src/js/lightbox.js"></script>
+    
   </body>
 
 </html>
